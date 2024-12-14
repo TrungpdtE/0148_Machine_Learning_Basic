@@ -1,0 +1,1 @@
+[{"type": "Convolution", "params": {}}, {"type": "Relu", "params": {}}, {"type": "Convolution", "params": {}}, {"type": "Relu", "params": {}}, {"type": "Pooling", "params": {}}, {"type": "Flatten", "params": {}}, {"type": "FullyConnected", "params": {}}, {"type": "Relu", "params": {}}, {"type": "FullyConnected", "params": {}}, {"type": "Softmax", "params": {}}]

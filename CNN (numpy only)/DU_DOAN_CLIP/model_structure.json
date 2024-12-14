@@ -1,0 +1,45 @@
+{
+    "layers": [
+        {
+            "type": "Conv2d",
+            "in_channels": 3,
+            "out_channels": 64,
+            "kernel_size": 3,
+            "padding": 1
+        },
+        {
+            "type": "ReLU"
+        },
+        {
+            "type": "MaxPool2d",
+            "kernel_size": 2
+        },
+        {
+            "type": "Conv2d",
+            "in_channels": 64,
+            "out_channels": 128,
+            "kernel_size": 3,
+            "padding": 1
+        },
+        {
+            "type": "ReLU"
+        },
+        {
+            "type": "MaxPool2d",
+            "kernel_size": 2
+        },
+        {
+            "type": "Linear",
+            "in_features": 32768,
+            "out_features": 512
+        },
+        {
+            "type": "ReLU"
+        },
+        {
+            "type": "Linear",
+            "in_features": 512,
+            "out_features": 10
+        }
+    ]
+}
